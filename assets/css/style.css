@@ -9,6 +9,8 @@ body{
 }
 a.navbar-brand {
 	font-weight: bolder;
+	font-size: 42px;
+    line-height: 24px;
 }
 .mt_56{
 	margin-top: -56px;
@@ -26,12 +28,16 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	left: 2%;
 	text-align: left;
 }
+div#carouselExampleIndicators .carousel-item img {
+	height: 100vh;
+    max-height: 700px;
+}
 .carousel.slide.mt_56 .carousel-item:before {
 	content: "";
 	background-color: #132247b3;
 	position: absolute;
 	top: 0;
-	left: -50px;
+	left: -60px;
 	right: 0;
 	bottom: 0;
 	width: 50%;
@@ -291,7 +297,7 @@ ol.carousel-indicators.custom-image li.active:before {
 
 section.blueberry-bg {
 	background-color: #d4f3fc57;
-	margin-top: -19em;
+	margin-top: -21em;
 	position: relative;
 }
 .blueberry-images:before {
